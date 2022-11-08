@@ -27,6 +27,19 @@ public class Matrix {
             System.out.println();
         }
         
+        for (int row = 0; row < 2; row++) {
+            for (int col = 0; col < 3; col++) {
+                B[row][col] = objinput.nextInt();
+            }
+        }
+        
+        for (int row = 0; row < 2; row++) {
+            for (int col = 0; col < 3; col++) {
+                System.out.print(" "+ B[row][col]);
+            }
+            System.out.println();
+        }
+        
     }
     
 }
